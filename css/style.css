@@ -2169,4 +2169,6 @@ ul.location_icon span {
 
 #span{
      display: inline;
+     color: #000;
+     font-weight: bold;
 }
