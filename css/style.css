@@ -1702,7 +1702,7 @@ color: #fff;
 
 /** about **/
 .about {
-     padding-top: 90px ;
+     padding-top: 0px ;
      padding-bottom: 84px ;
      background: url(../images/aboutbg.jpg);
     background-position-x: 0%;
