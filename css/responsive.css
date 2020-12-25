@@ -203,7 +203,7 @@ font-size: 42px;
 
 
 @media (max-width: 575px) {
-    .relative {left: 21%;}
+    .relative {left: 21%; text-align: center;}
     .mean-container .mean-bar {margin-bottom: -1px;}
     .location_icon_bottum {display: none;}
     .header {background: inherit; padding-bottom: 0; padding-top: 30px;}

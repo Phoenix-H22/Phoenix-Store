@@ -1598,7 +1598,7 @@ font-weight: 500;
      position: absolute;
      top: 50%;
      transform: translateY(-50%);
-     text-align: left;
+     text-align: center;
      bottom: auto;
 }
 
@@ -1616,7 +1616,7 @@ font-weight: 500;
 }
 
 .banner-main .carousel-caption h1 {
-     color: rgb(0, 0, 0);
+     color: rgb(255, 255, 255);
      font-size: 70px;
      line-height: 70px;
      font-weight: bold;
@@ -1730,6 +1730,7 @@ color: #fff;
      line-height: 32px;
      padding-bottom: 7px;
     display: block;
+text-align: center;
 }
 
 .about .about_box span {
@@ -1919,6 +1920,8 @@ margin-top: 40px
      line-height: 40px;
      font-weight: bold;
      padding: 0;
+     text-align: center;
+     text-decoration: underline solid black;
 }
 
 .contact .main_form {
@@ -2041,7 +2044,7 @@ ul.location_icon li a {
 color: rgb(255, 0, 0);
 width: 40px;
 height: 40px;
-border: solid rgb(0, 0, 0) 1px;
+border: solid rgb(255, 255, 255) 1px;
 float: left;
 text-align: center;
 line-height: 40px;
@@ -2165,6 +2168,19 @@ ul.location_icon span {
 
 #bold{
      font-weight: bold;
+     text-align: center;
+     text-decoration: underline solid black;
+     
+}
+#bold2{
+     font-weight: bold;
+     text-align: center;
+     font-family: 'Audiowide', cursive;
+}
+#bold3{
+     font-weight: bold;
+     text-align: center;
+     
 }
 
 #span{
