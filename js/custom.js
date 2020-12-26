@@ -386,3 +386,19 @@ btn.on('click', function(e) {
   $('html, body').animate({scrollTop:0}, '300');
 });
 
+//Copy and paste this code in your Backend
+let crypto = require("crypto");
+function generateKashierOrderHash(order){
+const mid = "MID-3208-533"; //your merchant id
+const amount = order.amount; //eg: 22.00
+const currency = order.currency; //eg: "EGP"
+const orderId = order.merchantOrderId; //eg: 99
+const secret = "yourServiceSecretKey";
+//eg: "f3da73dc-f75c-4b49-af08-69d26e106189"
+const path = `/?payment=${mid}.${orderId}.${amount}.${currency}`;
+const hash = crypto.createHmac('sha256', secret)
+.update(path)
+.digest('hex');
+return hash;
+}
+//The Result Hash for /?payment=mid-0-1.99.20.EGP with secret 11111 should result 606a8a1307d64caf4e2e9bb724738f115a8972c27eccb2a8acd9194c357e4bec

@@ -1843,7 +1843,7 @@ border-radius: 50px;
 
 .brand-bg {
      background: #ebebeb;
-     padding: 30px 0px;
+
      font-family: Myriad Pro;
 }
 
@@ -1855,13 +1855,13 @@ border-radius: 50px;
 .brand-bg .brand_box {
      background: #fff;
      text-align: center;
-     padding: 80px 0px 30px 0px ;
-     margin: 10px;
+     padding: 10px 0px 10px 0px ;
      border-radius: 5px;
 }
 .brand-bg .brand_box > img {
     height: 200px;
     width: auto;
+    border-radius: 6px ;
 }
 .brand-bg .brand_box h3 {
 
