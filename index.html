@@ -3,7 +3,7 @@
    <head>
       <style>
          .margin{
-         margin-top: 10px;
+         margin-top: 40px;
          line-height: 5px;
 
          }
@@ -20,7 +20,11 @@
     font-size: .8rem;
 }
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-      </style>
+@font-face {
+    font-family: "Bauhaus";
+    src: url(Bauhaus.ttf) format("truetype");
+}
+     </style>
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
       <script src='https://kit.fontawesome.com/a076d05399.js'></script>
@@ -89,8 +93,9 @@
       </div>
       <!-- end loader -->
       <!-- header -->
+      <section id="home">
       <header>
-         <!-- header inner -->
+          
          <div class="header">
             <div class="container">
                <div class="row">
@@ -108,14 +113,14 @@
                         <div class="limit-box">
                            <nav class="main-menu">
                               <ul class="menu-area-main">
-                                 <li class="active"> <a href="index.html">Home</a> </li>
-                                 <li> <a href="about.html">About</a> </li>
-                                 <li><a href="brand.html">Brand</a></li>
-                                 <li><a href="special.html">Specials</a></li>
-                                 <li><a href="contact.html">Contact Us</a></li>
-                                 <li class="last">
+                                 <li class="active"> <a href="#home">Home</a> </li>
+                                 <li> <a href="#about">About</a> </li>
+                                 <li><a href="#brand">Brand</a></li>
+                                 <!--<li><a href="special.html">Specials</a></li>-->
+                                 <li><a href="#contact">Contact Us</a></li>
+                                 <!--<li class="last">
                                     <a href="#"><img src="images/search_icon.png" alt="icon" /></a>
-                                 </li>
+                                 </li>-->
                               </ul>
                            </nav>
                         </div>
@@ -124,7 +129,8 @@
                   <div class="col-md-6 offset-md-6">
                      <div class="location_icon_bottum">
                         <ul>
-                           <li><img src="icon/call.png" />+201211312179</li>
+                           <li><img src="icon/call.png" />0121 131 2179
+</li>
                            <li><img src="icon/email.png" />info@phoenix-fire.tech</li>
                            <!--<li><img src="icon/loc.png" />Location</li>-->
                         </ul>
@@ -133,8 +139,11 @@
                </div>
             </div>
          </div>
-         <!-- end header inner -->
-      </header>
+         <!-- end header inner--> 
+        
+        </header>
+    </section>
+   
       <!-- end header -->
       <section class="slider_section">
          <div id="myCarousel" class="carousel slide banner-main" data-ride="carousel">
@@ -151,6 +160,8 @@
                         </p>-->
                         <br>
                         <a class="buynow" href="#brand">Buy Now</a>
+                        <br>
+                        <br>
                         <ul class="location_icon">
                            <li> <a href="https://www.facebook.com/Phoenix22h/" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
                            <li> <a href="https://www.instagram.com/phoenix.__.store/" target="_blank"><i class="fa fa-instagram"></i></a></li>
@@ -204,6 +215,7 @@
          </div>
       </section>
       <!-- about -->
+      <br>
       <section id="about">
       <div class="about">
          <div class="container">
@@ -240,8 +252,8 @@
          <div class="brand-bg">
             <div class="container">
                <div class="row">
-                  <div style="margin-top: -100px;" class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
-                     <div class="brand_box">
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
+                     <div class="brand_box border rounded px-0 hover-card h-80">
                         <img src="images/1.jpg" alt="img" />
                         <h3><strong class="red">10</strong> <span id="span">Egp</span></h3>
                         <span id="bold">Amazon Prime Video</span>
@@ -254,7 +266,7 @@
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
-                     <div class="brand_box">
+                     <div class="brand_box border rounded px-0 hover-card h-80">
                         <img src="images/2.jpg" alt="img" />
                         <h3><strong class="red">30</strong> <span id="span">Egp</span></h3>
                         <span id="bold">Anghami Plus</span>
@@ -267,7 +279,7 @@
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
-                     <div class="brand_box">
+                     <div class="brand_box border rounded px-0 hover-card h-80">
                         <img src="images/3.jpg" alt="img" />
                         <h3><strong class="red">40</strong> <span id="span">Egp</span></h3>
                         <span id="bold">Dezzer Premium</span>
@@ -280,7 +292,7 @@
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                     <div class="brand_box">
+                     <div class="brand_box border rounded px-0 hover-card h-80">
                         <img src="images/4.jpg" alt="img" />
                         <h3><strong class="red">35</strong> <span id="span">Egp</span></h3>
                         <span id="bold">Dezzer Premium</span>
@@ -294,7 +306,7 @@
                   </div>
                   <br>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mrgn">
-                     <div class="brand_box">
+                     <div class="brand_box border rounded px-0 hover-card h-80">
                         <img src="images/5.jpg" alt="img" />
                         <h3><strong class="red">400</strong> <span id="span">Egp</span></h3>
                         <span id="bold">Duolingo English Test</span>
@@ -307,7 +319,7 @@
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mrgn">
-                     <div class="brand_box">
+                     <div class="brand_box border rounded px-0 hover-card h-80">
                         <img src="images/6.jpg" alt="img" />
                         <h3><strong class="red">25</strong> <span id="span">Egp</span></h3>
                         <span id="bold" id="bold" >Dezzer Premium</span>
@@ -320,7 +332,7 @@
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mrgn">
-                     <div class="brand_box margin">
+                     <div class="brand_box border rounded px-0 hover-card h-80">
                         <img src="images/Grammarly Temp 1.jpg" alt="img" />
                         <h3><strong class="red">30</strong> <span id="span">Egp</span></h3>
                         <span id="bold">Grammarly Premium</span>
@@ -333,7 +345,7 @@
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mrgn">
-                     <div class="brand_box margin">
+                     <div class="brand_box border rounded px-0 hover-card h-80">
                         <img src="images/OSN.jpg" alt="img" />
                         <h3><strong class="red">30</strong> <span id="span">Egp</span></h3>
                         <span id="bold">OSN, Disney +, HBO</span>
@@ -346,7 +358,7 @@
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mrgn">
-                     <div class="brand_box margin">
+                     <div class="brand_box border rounded px-0 hover-card h-80">
                         <img src="images/Shahid.jpg" alt="img" />
                         <h3><strong class="red">10</strong> <span id="span">Egp</span></h3>
                         <span id="bold">Shahid VIP</span>
@@ -359,7 +371,7 @@
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mrgn">
-                     <div class="brand_box margin">
+                     <div class="brand_box border rounded px-0 hover-card h-80">
                         <img src="images/Spotify temp 3Months.jpg" alt="img" />
                         <h3><strong class="red">30</strong> <span id="span">Egp</span></h3>
                         <span id="bold">Spotify Premium</span>
@@ -372,7 +384,7 @@
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mrgn">
-                     <div class="brand_box margin">
+                     <div class="brand_box border rounded px-0 hover-card h-80">
                         <img src="images/Spotify temp Familly.jpg" alt="img" />
                         <h3><strong class="red">40</strong> <span id="span">Egp</span></h3>
                         <span id="bold">Spotify Premium Family</span>
@@ -385,7 +397,7 @@
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mrgn">
-                     <div class="brand_box margin">
+                     <div class="brand_box border rounded px-0 hover-card h-80">
                         <img src="images/Spotify temp.jpg" alt="img" />
                         <h3><strong class="red">25</strong> <span id="span">Egp</span></h3>
                         <span id="bold">Spotify Premium</span>
@@ -398,7 +410,7 @@
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mrgn">
-                     <div class="brand_box margin">
+                     <div class="brand_box border rounded px-0 hover-card h-80">
                         <img src="images/youtube Premium Family.jpg" alt="img" />
                         <h3><strong class="red">45</strong> <span id="span">Egp</span></h3>
                         <span id="bold">YouTube Premium Family</span>
@@ -411,7 +423,7 @@
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mrgn">
-                     <div class="brand_box margin">
+                     <div class="brand_box border rounded px-0 hover-card h-80">
                         <img src="images/youtube Premium2.jpg" alt="img" />
                         <h3><strong class="red">30</strong> <span id="span">Egp</span></h3>
                         <span id="bold">YouTube Premium</span>
@@ -516,6 +528,7 @@
       </div>
       <!-- end clients -->
       <!-- contact -->
+      <section id="contact"></section>
       <div class="contact">
          <div class="container">
             <div class="row">
@@ -544,6 +557,7 @@
             </div>
          </div>
       </div>
+   </section>
       <!-- end contact -->
       <!-- footer -->
       <footer>
@@ -555,7 +569,8 @@
                         <div class="headinga">
                            <h3>Address</h3>
                            <span id="bold">Cairo,Egypt</span>
-                           <p>+201211312179
+                           <p>0121 131 2179
+
                               <br>info@phoenix-fire.tech
                            </p>
                         </div>
@@ -564,7 +579,7 @@
                            <li> <a href="https://www.instagram.com/phoenix.__.store/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                            <li> <a href="https://discord.gg/m4He5qdGHR" target="_blank"><i class="fab fa-discord"></i></a></li>
                         </ul>
-                        <div class="menu-bottom">
+                        <!--<div class="menu-bottom">
                            <ul class="link">
                               <li> <a href="index.html">Home</a></li>
                               <li> <a href="about.html">About</a></li>
@@ -572,7 +587,7 @@
                               <li> <a href="special.html">Specials  </a></li>
                               <li> <a href="contact.html"> Contact us</a></li>
                            </ul>
-                        </div>
+                        </div>-->
                      </div>
                   </div>
                </div>

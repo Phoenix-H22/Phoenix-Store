@@ -120,7 +120,7 @@
         float: none;
     }
     .menu-area-main {
-        height: 290px;
+        height: 200px;
         overflow-y: auto;
     }
     .mean-container .mean-nav ul li a.mean-expand {
@@ -150,7 +150,7 @@
 
 padding-top: 30px;
     }
-     .banner-main .carousel-caption span {font-size: 30px; line-height: 19px; padding-bottom: 0px;}
+     .banner-main .carousel-caption span {font-size: 43px; line-height: 19px; padding-bottom: 0px;}
 .banner-main .carousel-caption h1 {font-size: 35px;  padding-top: 15px; line-height: 40px;}
 .banner-main .carousel-caption p  {font-size: 17px; padding: 10px 0px 20px 0px;}
 .banner-main .carousel-caption .buynow {width: 149px; padding: 7px 0;}
@@ -177,7 +177,7 @@ ul.social_icon {display: none !important;}
     .last {display: none;}
     .location_icon_bottum {display: none;}
     .logo {padding-top: 7px;}
-    .mean-container .mean-bar {background: #000;}
+    .mean-container .mean-bar {background: rgb(255, 0, 0);}
     .mean-container .mean-bar {margin-left: 20px;}
     .banner-main .carousel-caption span {font-size: 25px; line-height: 19px;}
 .banner-main .carousel-caption h1 {font-size: 30px; line-height: 40px;}
@@ -214,7 +214,7 @@ font-size: 42px;
 #myCarousel a.carousel-control-prev {width: 45px; height: 45px;}
 #myCarousel a.carousel-control-next {width: 45px; height: 45px;}
 .banner-main .carousel-item img {height: 290px;}
-.banner-main .carousel-caption span {font-size: 21px; line-height: 19px;}
+.banner-main .carousel-caption span {font-size: 20px; line-height: 19px;}
 .banner-main .carousel-caption h1 {font-size: 20px; line-height: 40px;}
 .banner-main .carousel-caption p  {display: none;}
 .banner-main .carousel-caption .buynow {width: 149px; padding: 7px 0;}
