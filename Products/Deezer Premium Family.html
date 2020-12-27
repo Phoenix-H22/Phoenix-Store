@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+      <style>
+         .margin{
+         margin-top: 40px;
+         line-height: 5px;
+
+         }
+         .icons /*, .carousel-indicators */ {
+    filter: invert(100%);
+    margin: 4px;
+}
+.special-page .relative {
+    text-align: center !important;
+}
+#brandspan{
+    color: red;
+    font-weight: bold;
+    font-size: .8rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@font-face {
+    font-family: "Bauhaus";
+    src: url(Bauhaus.ttf) format("truetype");
+}
+     </style>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+      <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Phoenix Store</title>
+      <link rel="shortcut icon" type="image/png" href="../images/about.png"/>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="Abdalrhman M. Alkady">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="../css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="../css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="../images/about.png" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- owl stylesheets -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="../css/owl.carousel.min.css">
+      <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      </head>
+   <!-- body -->
+   <body class="main-layout ">
+      <!--Whatsapp floating Button-->
+      <a href="https://wa.me/message/RYWKQDM6BX54D1" class="float" target="_blank">
+         <i class="fa fa-whatsapp my-float"></i>
+         </a>
+      <a id="button"></a>
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+         window.fbAsyncInit = function() {
+           FB.init({
+             xfbml            : true,
+             version          : 'v9.0'
+           });
+         };
+         
+         (function(d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+         fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
+      <!-- Your Chat Plugin code -->
+      <div style="display: block;" class="fb-customerchat"
+         attribution=setup_tool
+         page_id="103652504963635"
+         theme_color="#f91818">
+      </div>
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="../images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      
+      <section id="home">
+      <header>
+          
+         <div class="header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="../index.html"><img src="../images/logo.png" alt="#"></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <div class="menu-area">
+                        <div class="limit-box">
+                           <nav class="main-menu">
+                              <ul class="menu-area-main">
+                                 <li class="active"> <a href="../index.html#home">Home</a> </li>
+                                 <li> <a href="../index.html#about">About</a> </li>
+                                 <li><a href="../index.html#brand">Products</a></li>
+                                 <!--<li><a href="special.html">Specials</a></li>-->
+                                 <li><a href="../index.html#contact">Contact Us</a></li>
+                                 <!--<li class="last">
+                                    <a href="#"><img src="images/search_icon.png" alt="icon" /></a>
+                                 </li>-->
+                              </ul>
+                           </nav>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 offset-md-6">
+                     <div class="location_icon_bottum">
+                        <ul>
+                           <li><i style="width: 20px; height: 20px;" class="fa fa-whatsapp" aria-hidden="true"> </i> +1 646-980-5946
+</li>
+                           <li><img src="../icon/email.png" />info@phoenix-fire.tech</li>
+                           <!--<li><img src="icon/loc.png" />Location</li>-->
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end header inner--> 
+        
+        </header>
+    </section>
+    <section>
+      <div class="brand_color">
+<div class="container">
+   <div class="row">
+      <div class="col-md-12">
+         <div class="titlepage">
+            <h2 id="bold2">Choose a Way To Pay</h2>
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+
+<!-- contact -->
+<div class="contact">
+<div class="container">
+   <div class="row">
+      <div class="col-md-12">
+         <div style="padding-bottom: 0px; padding-top: 20px;" class="main_form text-center">
+            <div class="row">
+               <div class="col-md-12">
+                  <a role="button" target="_blank" href="https://www.easykash.net/LRC2319" class="btn btn-danger col-md-4 col-lg-4">Pay With Mobile Wallets</a>
+               </div>
+               <div class="col-md-12">
+                  <a style="margin-top: 1rem; margin-bottom: 1rem; " role="button" target="_blank" href="https://merchant.kashier.io/en/prepaymenpages?ppLink=PP-320853313,test" class="btn btn-danger col-md-4 col-lg-4">Pay With Credit Card</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+</section>
+   
+      <!-- end header -->
+      
+      <!-- end contact -->
+      <!-- footer -->
+      <footer>
+         <div id="contact" class="footer">
+            <div class="container">
+               <div class="row pdn-top-30">
+                  <div class="col-md-12 ">
+                     <div class="footer-box">
+                        <div class="headinga">
+                           <h3>Address</h3>
+                           <span id="bold">Cairo,Egypt</span>
+                           <p id="bold">+1 646-980-5946
+                              <br>info@phoenix-fire.tech
+                           </p>
+                        </div>
+                        <ul class="location_icon">
+                           <li> <a href="https://www.facebook.com/Phoenix22h/" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+                           <li> <a href="https://www.instagram.com/phoenix.__.store/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                           <li> <a href="https://discord.gg/m4He5qdGHR" target="_blank"><i class="fab fa-discord"></i></a></li>
+                        </ul>
+                        <!--<div class="menu-bottom">
+                           <ul class="link">
+                              <li> <a href="index.html">Home</a></li>
+                              <li> <a href="about.html">About</a></li>
+                              <li> <a href="brand.html">Brand </a></li>
+                              <li> <a href="special.html">Specials  </a></li>
+                              <li> <a href="contact.html"> Contact us</a></li>
+                           </ul>
+                        </div>-->
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <p id="bold">© 2020 All Rights Reserved.</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="../js/jquery.min.js"></script>
+      <script src="../js/popper.min.js"></script>
+      <script src="../js/bootstrap.bundle.min.js"></script>
+      <script src="../js/jquery-3.0.0.min.js"></script>
+      <script src="../js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="../js/custom.js"></script>
+      <!-- javascript -->
+      <script src="../js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script>
+         $(document).ready(function() {
+             $(".fancybox").fancybox({
+                 openEffect: "none",
+                 closeEffect: "none"
+             });
+         
+             $(".zoom").hover(function() {
+         
+                 $(this).addClass('transition');
+             }, function() {
+         
+                 $(this).removeClass('transition');
+             });
+         });
+      </script>
+   </body>
+</html>
