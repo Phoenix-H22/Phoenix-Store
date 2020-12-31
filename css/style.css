@@ -22,7 +22,10 @@
 @import url(nice-select.css);
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
-
+@media (prefers-color-scheme: dark) {
+     /* overwrite any default styles when
+        the user has set the Dark appearance */
+   }
 * {
      box-sizing: border-box !important;
      transition: ease all 0.5s;
@@ -1734,6 +1737,14 @@ text-align: center;
 }
 
 .about .about_box span {
+     font-weight: bold;
+     font-size: 50px;
+     line-height: 58px;
+     color:#23242a; 
+     padding-bottom: 10px;
+display: block
+}
+.about2 .about_box2 span {
      font-weight: bold;
      font-size: 50px;
      line-height: 58px;
